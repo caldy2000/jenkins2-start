@@ -26,3 +26,5 @@ One can skip plugins installation if there are plugin files already have, after 
 
 Open plugin manage page, plugins that copied before will display as installed.
 
+# Pipeline
+
