@@ -6,5 +6,10 @@ pipeline {
     			    echo 'Hello Jenkins!'
     			}       
         }
+        stage('printVersion') {
+           steps {
+               pwsh "mvn -v"
+           }
+        }
     }
 }
